@@ -1,5 +1,8 @@
 FROM python:3.13
 
+RUN pip install --upgrade pip
+RUN pip install poetry
+
 WORKDIR /app
 
 COPY . /app
