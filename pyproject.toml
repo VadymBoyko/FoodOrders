@@ -1,6 +1,7 @@
 [project]
 name = "FoodOrders"
 version = "0.1.0"
+package-mode = false
 description = ""
 authors = [
     {name = "Vadym",email = "m.vadym.boyko@gmail.com"}
