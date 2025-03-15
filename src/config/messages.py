@@ -1,0 +1,7 @@
+DUPLICATE_MEAL_NAME = "A meal with name {meal_name} already exists."
+CREATE_ORDER_ERROR = "Error creating order: {error}."
+MEAL_NOT_FOUND = "The meal with id = {meal_id} was not found."
+MEALS_NOT_FOUND = "These meals were not found: {meals}."
+ERROR_UPLOAD_FILE = "Error upload file: {error}."
+ERROR_DELETE_MEAL = "Error delete meal {id}: {error}."
+PROHIBITED_FILE_CONTENT = "Prohibited file content '{content_type}'. Only images are allowed to be uploaded."
