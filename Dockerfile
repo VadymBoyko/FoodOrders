@@ -7,8 +7,7 @@ WORKDIR /app
 
 COPY . /app
 
-RUN pip install poetry==$NIXPACKS_POETRY_VERSION || curl -sSL https://install.python-poetry.org | python3 -
-
+RUN pip install poetry==$NIXPACKS_POETRY_VERSION
 
 RUN poetry install --no-interaction --no-ansi
 
