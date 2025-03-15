@@ -7,7 +7,7 @@ WORKDIR /app
 
 COPY . /app
 
-RUN pip install poetry==$NIXPACKS_POETRY_VERSION
+RUN pip install poetry==3.13
 
 RUN poetry install --no-interaction --no-ansi
 
