@@ -7,7 +7,7 @@ WORKDIR /app
 
 COPY . /app
 
-RUN pip install poetry==3.13
+RUN pip install poetry==2.1.1
 
 RUN poetry install --no-interaction --no-ansi
 
