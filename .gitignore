@@ -1,7 +1,7 @@
 .env
+.venv
 postgres-data
 docs
 htmlcov
 .pytest_cache
 .idea
-test.db
