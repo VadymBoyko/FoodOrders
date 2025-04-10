@@ -27,6 +27,7 @@ async def healthchecker(db: Session = Depends(get_db)):
     except asyncio.TimeoutError:
         raise HTTPException(status_code=500, detail="Timeout error: Database is not responding")
     except Exception as e:
+        print("Error:", e)
         raise HTTPException(status_code=500, detail="Error connecting to the database")
 
 
